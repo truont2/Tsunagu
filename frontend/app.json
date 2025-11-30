@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "scheme": "tsunagu",
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "tsunagu",
+    "slug": "tsunagu"
+  }
+}
