@@ -5,7 +5,7 @@ from .serializers import UserSerializer
 from rest_framework.permissions import AllowAny, IsAuthenticated
 
 # Create your views here.
-# Views: Handle HTTP request and return HTTP response
+# Views: Handle HTTP request and return HTTP response (logic for API endpoints)
 
 class CreateUserView(generics.CreateAPIView):
     queryset = User.objects.all()
